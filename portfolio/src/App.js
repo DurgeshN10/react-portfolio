@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import MyNavbar from './components/my-navbar/navbar.component';
 
 
 function App() {
   return (
     <AppStyled>
-      <h1>styled components</h1>      
+      <MyNavbar />     
     </AppStyled>
   );
 }

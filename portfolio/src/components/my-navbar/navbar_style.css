@@ -1,0 +1,39 @@
+.navbar-brand {
+  display: contents;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.logo img{
+  width: 15%;
+}
+
+.nav-theme {
+  background-color: #f1f1f0f8;
+  font-size: 25px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.animate-navbar {
+  box-shadow: 1px 1px 1px rgb(46, 45, 45);
+  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
